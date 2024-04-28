@@ -1,0 +1,23 @@
+input[type="text"].positive {
+  /* Styles for positive sentiment comments */
+  background-color: green;
+}
+
+input[type="text"].neutral {
+  /* Styles for neutral sentiment comments */
+  background-color: yellow;
+}
+
+input[type="text"].negative {
+  /* Styles for negative sentiment comments */
+  background-color: red;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
